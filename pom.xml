@@ -10,7 +10,7 @@
     <dependencies>
         <dependency>
             <groupId>com.spira</groupId>
-            <artifactId>junit-com.spira</artifactId>
+            <artifactId>junit-spira</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>

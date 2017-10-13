@@ -1,10 +1,10 @@
+package com.spira;
+
 import com.inflectra.spiratest.addons.junitextension.SpiraTestCase;
 import com.inflectra.spiratest.addons.junitextension.SpiraTestConfiguration;
-import com.inflectra.spiratest.addons.junitextension.SpiraTestListener;
 import junit.framework.JUnit4TestAdapter;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.JUnitCore;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -95,19 +95,7 @@ public class Test2
      *
      * @param args	The command line arguments
      */
-    public static void main (String[] args)
-    {
-        //Instantiate the JUnit core
-        JUnitCore core = new JUnitCore();
 
-        //Add the custom SpiraTest listener
-        core.addListener(new SpiraTestListener());
-
-        //Finally run the test fixture
-        core.run(Test2.class);
-
-
-    }
 
     /**
      * Entry point for JUnit 4.x runners
@@ -119,4 +107,6 @@ public class Test2
         System.out.println("TEST output");
         return new JUnit4TestAdapter(Test2.class);
     }
+
+
 }

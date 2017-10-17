@@ -1,3 +1,5 @@
+package com.spira;
+
 import com.inflectra.spiratest.addons.junitextension.SpiraTestCase;
 import com.inflectra.spiratest.addons.junitextension.SpiraTestConfiguration;
 import junit.framework.JUnit4TestAdapter;

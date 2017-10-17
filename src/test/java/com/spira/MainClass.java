@@ -1,4 +1,7 @@
+package com.spira;
+
 import com.inflectra.spiratest.addons.junitextension.SpiraTestListener;
+import com.spira.Test2;
 import org.junit.runner.JUnitCore;
 
 

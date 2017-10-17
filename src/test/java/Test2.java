@@ -1,5 +1,3 @@
-package com.spira;
-
 import com.inflectra.spiratest.addons.junitextension.SpiraTestCase;
 import com.inflectra.spiratest.addons.junitextension.SpiraTestConfiguration;
 import junit.framework.JUnit4TestAdapter;
@@ -104,7 +102,6 @@ public class Test2
      */
     public static junit.framework.Test suite()
     {
-        System.out.println("TEST output");
         return new JUnit4TestAdapter(Test2.class);
     }
 

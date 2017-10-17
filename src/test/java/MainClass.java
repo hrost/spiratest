@@ -1,5 +1,3 @@
-package com.spira;
-
 import com.inflectra.spiratest.addons.junitextension.SpiraTestListener;
 import org.junit.runner.JUnitCore;
 
@@ -7,6 +5,8 @@ import org.junit.runner.JUnitCore;
     public class MainClass {
         public static void main (String[] args)
         {
+            System.out.println("We are in Main class");
+
             //Instantiate the JUnit core
             JUnitCore core = new JUnitCore();
 
